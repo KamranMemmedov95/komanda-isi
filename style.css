@@ -1,45 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 
-body{
-    font-family:Alfa Slab Roboto;
+section {
+    background-color: antiquewhite;
+    height: 800px;
 }
 
-section{
-    position:absolute;
-    width: 1440px;
-    height: 780px;
-    left: -1px;
-    top: 4625px;
 
-    background: #EFEFEF;
-}
-
-.head{
-    position: absolute;
-    width: 987px;
-    height: 93px;
-    left: 121px;
-    top: 4716px;
-
-
-/* or 56px */
-
-
-    color: #000000;
+.head {
+    font-family: "roboto slab";
+    font-size: 40px;
+    margin-left: 140px;
+    margin-bottom: 91px;
+    color: black;
 
 }
 
-.form{
-    position: absolute;
+.box {
+
+    margin-left: 126px;
+    padding-top: 35px;
     width: 791px;
     height: 451px;
     left: 125px;
-    top: 4843px;
+    top: 250px;
 
     background: #FFFFFF;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
 }
 
+.about {
+    display: flexbox;
+    margin: 25px;
+    margin-bottom: 0px;
 
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "roboto";
+    font-style: black;
+    line-height: 35px;
+}
+
+h3 {
+    font-family: 'Roboto Slab';
+    margin: 0;
+    position: absolute;
+    right: 775px;
+    top: 520px;
+    font-size: 30px;
+
+}
+
+.foto1 {
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.foto2 {
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
