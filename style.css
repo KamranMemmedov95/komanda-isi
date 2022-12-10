@@ -3,7 +3,7 @@
 
 
 section {
-    background-color: antiquewhite;
+    background-color: #EFEFEF;
     height: 800px;
 }
 
@@ -12,15 +12,15 @@ section {
     font-family: "roboto slab";
     font-size: 40px;
     margin-left: 140px;
-    margin-bottom: 91px;
+    margin-bottom: 50px;
     color: black;
 
 }
 
 .box {
 
+    padding: 20px;
     margin-left: 126px;
-    padding-top: 35px;
     width: 791px;
     height: 451px;
     left: 125px;
@@ -32,7 +32,7 @@ section {
 }
 
 .about {
-    display: flexbox;
+    
     margin: 25px;
     margin-bottom: 0px;
 
@@ -43,23 +43,24 @@ section {
     line-height: 35px;
 }
 
-h3 {
+ h3{
     font-family: 'Roboto Slab';
-    margin: 0;
-    position: absolute;
-    right: 775px;
-    top: 520px;
     font-size: 30px;
-
+    margin: 0;
+    position: relative;
+    left: 30%;
+    bottom: 35%;
 }
 
-.foto1 {
-    margin-left: 20px;
-    margin-top: 10px;
-
+.foto1{
+    margin-top: 15px;
+    margin-left: 26px;
 }
 
-.foto2 {
-    margin-bottom: 50px;
-    margin-left: 30px;
+.foto2{
+    margin-left: 15px;
+    margin-bottom: 30px;
 }
+
+
+
