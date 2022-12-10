@@ -12,19 +12,18 @@ section {
     font-family: "roboto slab";
     font-size: 40px;
     margin-left: 140px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    padding-top: 5px;
     color: black;
 
 }
 
 .box {
 
-    padding: 20px;
+    padding: 1%;
     margin-left: 126px;
     width: 791px;
     height: 451px;
-    left: 125px;
-    top: 250px;
 
     background: #FFFFFF;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
